@@ -1,0 +1,40 @@
+
+.index_dao {width: 100%;overflow: hidden;padding-bottom: 10px;}
+.index_dao .index_dg {width: 25%;float: left;padding: 10px 0;}
+.index_dao .index_dg a {display: block;}
+.index_dao .index_dg li {margin: 0 auto;text-align: center;font-size: 12px;color: #333;}
+.index_dao .index_dg li img {width: 50%;margin: 0 auto;}
+/*导航*/
+
+.index_gong {padding-bottom: 20px;}
+.index_gong .index_tit {height: 35px;border-bottom: 1px solid #E9E9E9;}
+.index_gong .index_tit img {float: left;padding-top: 5px;padding-left:20px}
+.index_gong .index_tit span {float: left;padding-top: 5px;padding-left: 15px;font-size: 18px;}
+.checked {overflow: hidden;zoom: 1;}
+.index_gong .checked li {float: left;width:30%;text-align: center;padding-top: 10px;padding-bottom: 5px;font-size: 16px;margin-right:5%}
+.checked li:hover,.checked li.current {border-bottom: 1px solid #F1914E;color: #F1914E;}
+#contents ul {padding-top: 15px;overflow: hidden;zoom:1}
+#contents ul li {width: 32%;float: left;margin-right:2%;padding-bottom:15px;}
+#contents ul li:nth-child(3n),.checked li:last-child{margin-right:0}
+#contents ul li a {width:100%;float: left;position: relative;color:#13425d}
+#contents ul li a span {background-color: rgba(255, 255, 255, 0.5);position: absolute;bottom: 0;height: 30px;text-align: center;width:100%;line-height:30px}
+#contents ul li a img{width:100%;}
+.index_gen {width: 100%;text-align: center;}
+.index_gen a{display: block;width: 25%;height: 30px;text-align: center;margin: 0 auto;background-color: #F9B552;color: #fff;border: 0;border-radius: 5px;line-height:30px;}
+/*热门景点*/
+#model2 {overflow: hidden;}
+.toptititi{height: 35px;border-bottom: 1px solid #E9E9E9;}
+.model2tu{width: 50%;float: left;}
+.model2tu img{float: left;padding-top: 5px;padding-left: 15px;}
+.titit{float: left;padding-top: 5px;padding-left: 2%;font-size:18px;width:100px;}
+.tab_menu{float: right;padding-top:10px;padding-right: 30px;}
+#window{width: 100%;overflow: hidden;padding-bottom: 20px;}
+.tab_box dl{float: left;width: 32%;padding-top: 20px;margin-right:2%}
+.tab_box dl:nth-child(3n){margin-right:0}
+.tab_box dl a dt{text-align: center;}
+.tab_box dl a dt img{width:100%}
+.tab_box dl a .index_titless{color: #222;font-size: 14px;}
+.tab_box dl a .index_jiage{width: 100%;overflow: hidden;zoom:1}
+.index_jialeft{float: left;font-size: 12px;color: #f00;
+height: 20px;line-height: 20px;}
+#window .tab_box dl a .index_jiage .index_jiaright{float: right;padding-right: 20px;font-size: 10px;height: 20px;line-height: 20px;color: #ccc;	}

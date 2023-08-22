@@ -1,0 +1,20 @@
+.main{background:url(../img/dl.png) no-repeat;height:500px;width:1200px;margin:0 auto;position:relative}
+.top1 img{margin-left:60px;padding:20px 0px}
+.mians{position:absolute;top:90px;right:50px;background-color:#fff;padding:0px 20px;width:320px;height:330px}
+#dl1{overflow:hidden;zoom:1;}
+#dl1 li{float:left;width:150px;padding-top:20px;text-align:center;padding-bottom:10px}
+#dl1 li.new7{border-right:1px solid #ccc;border-bottom:1px solid #ccc;background-color:#f5f5f5;}
+.main_box p{padding-top:10px;}
+.main_box input{padding:10px 25px;border:1px solid #ccc}
+.dlm{background:url(../img/yong.png) no-repeat}
+.mima{background:url(../img/mim.png) no-repeat}
+.jz span{float:right;font-size:14px;color:#007AFF;}
+#deng{background-color:#007AFF;color:#fff;border:0;text-align:center}
+.free{color:#007AFF;}
+.hz{font-weight:bold;font-size:14px;}
+.foot{width:1200px;margin:0 auto}
+.foot ul{overflow:hidden;zoom:1;margin-left:200px;padding-top:20px}
+.foot li{float:left;padding-right:10px;padding-left:10px;border-right:1px solid #666}
+.foot li:last-child{border-right:0}
+.foot h1{border:1px dashed #007AFF;margin-top:50px}
+.foot p{margin-left:500px;padding-top:5px}

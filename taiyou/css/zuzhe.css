@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: #333;
+}
+li{
+	list-style: none;
+}
+.zuzhe_quan{
+	width: 80%;
+	margin: 0 auto;
+}
+.zuzhe_top{
+	overflow: hidden;
+	
+	padding-bottom: 1%;
+	padding-top: 1%;
+	border-bottom: 2px solid #D2D2D2;
+}
+.zuzhe_top img{
+	width: 10%;
+	max-width: 100px;
+	min-width: 100px;
+	float: left;
+	margin-left: 5%;
+
+}
+.zuzhe_top .ztop_tit{
+	float: right;
+	font-size: 18px;
+	margin-right: 5%;
+	height: 20px;
+	line-height: 220px;
+
+}
+.zuzhe_top .ztop_tit .one{
+	color: #6295DD;
+}
+.zuzhe_cen{
+	padding-top: 5%;
+	padding-left: 5%;
+}
+.zuzhe_cen .zcen_hang{
+	height: 50px;
+	
+}
+.zuzhe_cen .zcen_hang .zcen_left{
+	height: 40px;
+	text-align: right;
+	padding-right:10px;
+	font-size: 18px; 
+}
+.zuzhe_cen .zcen_hang .zcen_right input{
+	height: 40px;
+	font-size: 18px;
+	width: 400px;
+	text-indent: 10px;
+}
+.zuzhe_cen .zcen_hang .shoujihaoa{
+	text-indent: 10px;
+	font-size: 18px; 
+	color: #BABBBD;
+}
+.zuzhe_cen .zcen_hang .zcen_right .yanzheng{
+	width: 150px;
+
+}
+.di{
+	margin-top: 200px;
+}
+.di p{
+	text-align: center;
+}
+.zuzhe_cen .zcen_hang .zcen_right .jihuoma{
+	width: 100px;
+	height: 30px;
+	font-size: 15px;
+	margin-left:20px;
+	background-color: #0B60EF;
+	border: none;
+}
+.zuzhe_cen .zcen_hang .zcen_right .tong{
+	background-color: #FF8205;
+	color: #fff;
+	border: none;
+	
+}

@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>酒店</title>
+		 <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+     <script src="js/index.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/jiu.css" />
+     <link rel="stylesheet" type="text/css" href="css/style.css" />
+     <link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+	</head>
+	<body>
+		<div id="box">
+        <!--head-->
+        <div id="head">
+            <div class="top">
+                <div class="left">
+                    <img src="img/zuobiao.png" /><a href="#"> 泰安 </a>
+                    <span><a href="#"> 登录 </a> | <a href="#"> 注册 </a>	</span>
+                </div>
+                <div class="right">
+                    <img src="img/wx.png" />
+                    <img src="img/xl.png" />
+                    <img src="img/shouji.png" />
+                    <a href="#">手机端</a> |
+                    <img src="img/dianhua.png" />
+                    <a href="#">400-xxx-xxx</a> |
+                    <a href="#">在线客服</a>
+                </div>
+            </div><!--/top-->
+            <div class="cons">
+                <h1 class="logos"><img src="img/logo.png" /></h1>
+                <div class="search">
+                    <input placeholder="请输入目的地或关键字" class="input" />
+                    <a href="#"><img src="img/searcher.png" /></a>
+                </div>
+                <div class="rights">
+                    <dl>
+                    	<dt><a href="#"><img src="img/jiage.png" alt="" /></a></dt>
+                    	<dd>价格保障</dd>
+                    </dl>
+                    <dl>
+                    	<dt><a href="#"><img src="img/tuiding.png" alt="" /></a></dt>
+                    	<dd>退订保障</dd>
+                    </dl>
+                    <dl>
+                    	<dt><a href="#"><img src="img/jiage.png" alt="" /></a></dt>
+                    	<dd>价格保障</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <!--nav-->
+       <div id="nav">
+            <ul>
+                <li><a href="index.html" class="bccolor">首页</a></li>
+                <li class="er"><a href="景点.html">景点<img src="img/down.png" alt="" id="downs"/></a>
+                    <ul id="subs">
+                        <li><a href="产品详情.html">泰山区</a></li>
+                        <li><a href="产品详情.html">岱岳区</a></li>
+                        <li><a href="产品详情.html">新泰市</a></li>
+                        <li><a href="产品详情.html">肥城市</a></li>
+                        <li><a href="产品详情.html">宁阳县</a></li>
+                        <li><a href="产品详情.html">东平县</a></li>
+                    </ul>
+                </li>
+                <li><a href="酒店.html">酒店</a></li>
+                <li><a href="一日游.html">旅游</a></li>
+                <li class="wu"><a href="攻略.html">攻略<img src="img/up.png" alt="" id="downs"/></a>
+                    <ul id="subs">
+                        <li><a href="创建行程.html">创建行程</a></li>
+                        <li><a href="美食.html">美食</a></li>
+                    </ul>
+                </li>
+                <li><a href="youji.html">游记</a></li>
+                <li class="qi"><a href="我的主页.html">我的主页<img src="img/up.png" alt="" id="downs"/></a>
+                    <ul id="subs" >
+                        <li><a href="我的主页.html">个人中心</a></li>
+                        <li><a href="我的足迹.html">常住地管理</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div style="position:relative">
+           <div id="navs1">
+           	 <div class="sou">酒店搜索</div>
+           	 <div class="suo">
+           	 	<div>2018-05-31<span>星期四</span><a href="#">
+           	 		<img src="img/date.png" alt="" />
+           	 	</a>
+           	 		
+           	 	</div>
+           	 		<div>2018-06-31<span>星期四</span><img src="img/date.png" alt="" /></div>
+           	 			<a href="#" class="sosu">搜索</a>
+           	 </div>
+           	
+           </div>
+        <!--banner-->
+        <div id="banner">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="img/banner1.jpg" /></div>
+                    <div class="swiper-slide"><img src="img/banner2.jpg" /></div>
+                    <div class="swiper-slide"><img src="img/banner3.jpg" /></div>
+                    <div class="swiper-slide"><img src="img/banner4.jpg" /></div>
+                    <div class="swiper-slide"><img src="img/banner5.jpg" /></div>
+                    <div class="swiper-slide"><img src="img/banner6.jpg" /></div>
+                    <div class="swiper-slide"><img src="img/banner7.jpg" /></div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div><!--/banner-->
+        </div>
+        <div id="main">
+        	<div id="molder1">
+        		<div class="molder1s">
+        		<h3>特价酒店</h3>
+        		<ul id="lis3">
+        			<li>泰山区</li>
+        			<li>岱岳区</li>
+        			<li>新泰市</li>
+        			<li>肥城市</li>
+        			<li>宁阳县</li>
+        			<li>东平县</li>
+        		</ul></div>
+        		<div id="molder1_box">
+        			<div>
+        				<dl>
+        					<dt><a href="#"><img src="img/frm.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/frm.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/frm.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/frm.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/frm.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/frm.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/frm.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/frm.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        			</div>
+        			<div>
+        				<dl>
+        					<dt><a href="#"><img src="img/dtky.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/dtky.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/dtky.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/dtky.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/dtky.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/dtky.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/dtky.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/dtky.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        			</div>
+        			<div>
+        				<dl>
+        					<dt><a href="#"><img src="img/frm.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/frm.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/frm.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/frm.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/frm.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/frm.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/frm.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/frm.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        			</div>
+        			<div>
+        				<dl>
+        					<dt><a href="#"><img src="img/dtky.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/dtky.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/dtky.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/dtky.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/dtky.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/dtky.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/dtky.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/dtky.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        			</div>
+        						<div>
+        				<dl>
+        					<dt><a href="#"><img src="img/frm.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/frm.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/frm.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/frm.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/frm.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/frm.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/frm.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/frm.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        			</div>
+        					<div>
+        				<dl>
+        					<dt><a href="#"><img src="img/dtky.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/dtky.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/dtky.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/dtky.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/dtky.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/dtky.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/dtky.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/dtky.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        			</div>
+        		</div><!--/molder1_box-->
+        	</div><!--/molder1-->
+        	<div id="molder2">
+        		<div class="molder2s">
+        		<h3>度假主题</h3>
+        		<ul id="lis4">
+        			<li><img src="img/ms.png" alt="" id="byc"/>
+        			<img src="img/ms1.png" alt="" / id="yc" style="display:none"><span>温泉酒店</span></li>
+        			<li><img src="img/ms.png" alt="" id="byc"/>
+        			<img src="img/ms1.png" alt="" / id="yc" style="display:none"><span>温泉酒店</span></li>
+        			<li><img src="img/ms.png" alt="" id="byc"/>
+        			<img src="img/ms1.png" alt="" / id="yc" style="display:none"><span>温泉酒店</span></li>
+        			<li><img src="img/ms.png" alt="" id="byc"/>
+        			<img src="img/ms1.png" alt="" / id="yc" style="display:none"><span>温泉酒店</span></li>
+        			<li><img src="img/ms.png" alt="" id="byc"/>
+        			<img src="img/ms1.png" alt="" / id="yc" style="display:none"><span>温泉酒店</span></li>
+        		</ul></div>
+        		<div id="molder2_box">
+        			<div>
+        			<dl>
+        					<dt><a href="#"><img src="img/xld.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/xld.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/xld.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/xld.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/xld.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/xld.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/xld.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/xld.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				</div>
+        				<div>
+        			<dl>
+        					<dt><a href="#"><img src="img/frm.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/frm.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/frm.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/frm.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/frm.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/frm.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/frm.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/frm.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				</div>
+        				<div>
+        			<dl>
+        					<dt><a href="#"><img src="img/xld.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/xld.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/xld.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/xld.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/xld.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/xld.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/xld.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/xld.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				</div>
+        				<div>
+        			<dl>
+        					<dt><a href="#"><img src="img/frm.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/frm.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/frm.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/frm.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/frm.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/frm.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/frm.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/frm.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				</div>
+        				
+        				<div>
+        			<dl>
+        					<dt><a href="#"><img src="img/xld.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/xld.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/xld.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/xld.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/xld.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/xld.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/xld.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				<dl>
+        					<dt><a href="#"><img src="img/xld.png" alt="" /></a></dt>
+        					<dd><p>泰安万达公寓</p><span class="jia">￥100<span class="ge">起</span></span></dd>
+        				</dl>
+        				</div>
+        		</div><!--/molder2_box-->
+        	</div><!--/molder2-->
+        	<div id="molder3">
+        		<div class="molder3s">
+        		<h3>合作品牌</h3>
+        		</div>
+        		<div id="molder3_box">
+        			<dl>
+        				<dt><a href="#"><img src="img/dtky.png" alt="" /></a></dt>
+        				<dd>大唐凯悦酒店</dd>
+        			</dl>
+        			<dl>
+        				<dt><a href="#"><img src="img/dtky.png" alt="" /></a></dt>
+        				<dd>大唐凯悦酒店</dd>
+        			</dl>
+        			<dl>
+        				<dt><a href="#"><img src="img/dtky.png" alt="" /></a></dt>
+        				<dd>大唐凯悦酒店</dd>
+        			</dl>
+        			<dl>
+        				<dt><a href="#"><img src="img/dtky.png" alt="" /></a></dt>
+        				<dd>大唐凯悦酒店</dd>
+        			</dl>
+        		</div>
+        	</div><!--/molder3-->
+        	<div id="molder4s">
+        		<dl>
+          		<dt><a href="#"><img src="img/jgs.png" alt="" /></a></dt>
+          		<dd><p>价格保障</p><span>价格保证，同类产品，保证低价</span></dd>
+          	</dl>
+          	<dl>
+          		<dt><a href="#"><img src="img/jgs.png" alt="" /></a></dt>
+          		<dd><p>价格保障</p><span>价格保证，同类产品，保证低价</span></dd>
+          	</dl>
+          	<dl>
+          		<dt><a href="#"><img src="img/jgs.png" alt="" /></a></dt>
+          		<dd><p>价格保障</p><span>价格保证，同类产品，保证低价</span></dd>
+          	</dl>
+        	</div>
+        </div><!--/main-->
+        <div class="footers">
+        	<div id="fots1">
+        	<div id="shang1">
+        		<div class="fotLeft1">
+        			<dl>
+        				<dt><a href="#"><img src="img/dianhuas.png" alt="" /></a></dt>
+        				<dd><p>24小时服务热线</p>
+        					<p>407-777-7777</p>
+        				</dd>
+        			</dl>
+        			<dl>
+        				<dt><a href="#"><img src="img/yj1.png" alt="" /></a></dt>
+        				<dd>意见反馈</dd>
+        			</dl>
+        		</div>
+        		<div class="fotCenter1">
+        			<ul>
+        				<li class="fir1"><a href="#" style="color:#333;">关于泰游</a></li>
+        				<li><a href="#">泰游简介</a></li>
+        				<li><a href="#">法律声明</a></li>
+        				<li><a href="#">网站地图</a></li>
+        				<li><a href="#">业务资源</a></li>
+        				<li><a href="#">隐私条款</a></li>
+        			</ul>
+        			<ul>
+        				<li class="fir1"><a href="#" style="color:#333;">加盟合作</a></li>
+        				<li><a href="#">合作加盟</a></li>
+        				<li><a href="#">商旅合作</a></li>
+        				<li><a href="#">旅游体验</a></li>
+        				<li><a href="#">门票台</a></li>
+        			</ul>
+        			<ul>
+        				<li class="fir1"><a href="#" style="color:#333;">联系我们</a></li>
+        				<li><a href="#">联系我们</a></li>
+        				<li><a href="#">投诉建议</a></li>
+        				<li><a href="#">诚聘英才</a></li>
+        				<li><a href="#">友情链接</a></li>
+        			</ul>
+        		</div>
+        		<div class="fotRight1">
+        			<p>泰游生活APP</p>
+        			<a href="#"><img src="img/ewm1.png" alt="" /></a>
+        			<span>手机预订更优惠</span>
+        		</div>
+        	</div><!--/shang-->
+        	<h6></h6>
+        	</div>
+        	<div class="tj1">
+        		<p>热点推荐：</p>
+        		<a href="#">泰安方特欢乐世界</a>
+        		<a href="#">  泰安太阳部落 </a>
+        		<a href="#"> 亚龙湾水上世界 </a>
+        		<a href="#"> 天鹅湖  </a>
+        		<a href="#">  泰安花样年华</a>
+        		<a href="#">泰安方特欢乐世界</a>
+        		<a href="#">  泰安太阳部落 </a>
+        		<a href="#"> 亚龙湾水上世界 </a>
+        		<a href="#"> 天鹅湖  </a>
+        		<a href="#">  泰安花样年华</a>
+        	</div>
+        	<div class="tj1">
+        		<p>热点推荐：</p><a href="#">泰安方特欢乐世界</a>
+        		<a href="#">  泰安太阳部落 </a>
+        		<a href="#"> 亚龙湾水上世界 </a>
+        		<a href="#"> 天鹅湖  </a>
+        		<a href="#">  泰安花样年华</a>
+        		<a href="#">泰安方特欢乐世界</a>
+        		<a href="#">  泰安太阳部落 </a>
+        		<a href="#"> 亚龙湾水上世界 </a>
+        		<a href="#"> 天鹅湖  </a>
+        		<a href="#">  泰安花样年华</a>
+        	</div>
+        </div><!--/footers-->
+        
+      </div><!--/box-->
+	</body>
+</html>

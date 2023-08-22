@@ -1,0 +1,89 @@
+#leftMy{float:left;background-color:#F4F4F4;width:300px;padding:20px 0px;margin-top:30px}
+#leftMy p,#leftMy dl{text-align:center;padding:5px 0px}
+#leftMy dt,#leftMy p{font-size:20px}
+#leftMy dd:hover{color:#007AFF;}
+#leftMy dd{padding:5px 0px}
+#imgs{vertical-align:middle;}
+#rightMy{float:right;width:970px;margin-left:30px;margin-top:30px}
+.mo1{overflow:hidden;zoom:1;background-color:#F7F7F7;}
+.mo1Left{float:left;width:380px;overflow:hidden;zoom:1;border-right:1px solid #ccc;margin:20px 0px}
+.tx{float:left;padding:0px 5px}
+.xinxi{float:left;margin-left:30px;padding-top:20px}
+.mo1Left h4 span{font-size:14px;font-weight:normal;background-color:#DD9C74;color:#fff;margin-left:20px;padding:0px 5px}
+.sm,.aq{font-size:12px;}
+.sm a,.aq a{color:#007AFF;margin-left:10px}
+.mo1Left p{padding-top:5px}
+.aq img{vertical-align: middle;}
+.mo1Center{float:left;width:300px;overflow:hidden;zoom:1;margin-left:30px;}
+.mo1Center dl{float:left;margin-right:30px;padding-top:20px;text-align:center}
+.mo1Right{float:left;margin-left:30px;border-left:1px solid #ccc;margin-top:20px;}
+.mo1Right p{padding-top:10px;margin-left:30px}
+.mo1Right p a{color:#F45B20;}
+/**/
+.mo2{clear:both;padding:20px 0px}
+.mo2Bt,.mo3Bt{overflow:hidden;zoom:1;border-bottom:1px solid #ccc;padding-bottom:10px}
+.mo2Bt h3,.mo3Bt h3{float:left;font-weight:normal;padding-left:30px;}
+.mo2Bt h3{background:url(../img/jy.png) no-repeat -3px}
+.mo2Bt a,.mo3Bt a{float:right;color:#007AFF;}
+.m2Cont p{text-align: center;margin-top:40px}
+.m2Cont a{color:#007AFF;}
+.mo3Bt h3{background:url(../img/xin.png) no-repeat;}
+.mo3Cont{overflow:hidden;zoom:1;border:1px solid #ccc;margin:30px 0px;padding:0px 20px}
+.mo3Cont dl{float:left;width:23.2%;margin-right:20px;padding:20px 0px;}
+.mo3Cont dt img{width:100%}
+.mo3Cont dl:last-child{margin-right:0}
+.mo3Cont dd span{color:#999;padding-top:5px}
+/**/
+#erNav span{color:#007AFF;}
+#my{overflow: hidden;zoom: 1;margin-top:20px}
+#rightMy{margin-left:50px;width:calc(100% - 360px);height:1000px;}
+#rightMy ul{overflow: hidden;zoom:1;border-bottom:solid 2px #E2E2E2;padding:10px 0px}
+#rightMy li{float:left;list-style: none;margin-right:50px;text-align:center}
+#duli{margin: 10px auto;overflow: hidden;zoom: 1;float:left}
+.dulicon{text-align:center;margin-top:100px}
+.dulitop a:hover{color:#007AFF;}
+.hc{width:150px;height:150px;background-color:#EEEEEE;float:left}
+.hc img{text-align:center;padding:35px 50px}
+.duliright{float:right;padding-right:40px;}
+.duliright a{display:block;width:80px;height:40px;line-height:40px;color:#fff;margin:20px 0px}
+.xpj{background-color:#3089C1;}
+.xyj{background-color:#FC8F1A;}
+.duliright a img{vertical-align:middle;}
+#gr{height:200px;background:url(../img/wd.png) no-repeat;}
+.grRight{float:right;padding-top:50px;overflow:hidden;zoom:1;padding-right:20px}
+.grRight dl{float:left;margin-left:30px;margin-top:30px}
+.grRight dt{text-align:center}
+.grRight dt a{color:#007AFF;}
+.grRight dl:first-child{border-right:1px solid #333;padding-right:30px}
+.grLeft{float:left}
+.grLeft dl{overflow:hidden;zoom:1;padding-top:50px}
+.grLeft dt{float:left;width:150px;margin-left:30px}
+.grLeft dd h3{color:#333;}
+.grLeft dd{float:left;}
+/**/
+
+#list6 a:hover{color:#007AFF;border-bottom:2px solid #007AFF;}
+.one{font-size: 18px;height: 40px;line-height: 40px;}
+.one a{color: #666;padding-left: 50px;}
+.one a:hover{color: #318AC4;}
+.two{border-top: solid 2px #007AFF;background-color: #F6F6F6;}
+.twos li{padding-left:25px;}
+.threes{text-align:center;padding-top:20px; }
+
+#sc{overflow:hidden;zoom:1;width:700px;}
+#sc dl{overflow:hidden;zoom:1;border:1px solid #ccc;margin:10px 0px;position:relative;}
+#sc dt{float:left;width:320px}
+#sc dd{float:left;width:300px;padding-left:20px;padding-top:30px}
+#sc dd h3{color:#007AFF;font-weight:normal;}
+.sc1 img{float:left}
+.sc2{display:block;}
+#sc dd span a{color:#999;font-size:14px}
+#sc p{float:right;margin-top:40px;overflow:hidden;zoom:1;}
+#sc p  img{margin-top:5px;}
+#sc p a{float:left;margin-left:10px;font-size:14px}
+.ch{position:absolute;right:10px;top:0}
+.down{margin:50px auto;margin-left:40px}
+.down a{color: #80B6D9;}
+.ups{overflow: hidden;zoom: 1;width: 95%;margin: 0 auto;padding: 20px;}
+.ones{float: left;}
+.twos{float: right;}

@@ -1,0 +1,154 @@
+{
+	"jingdian.html": {
+		"refer": [
+			"index.html",
+			"jingdian_list.html"
+		]
+	},
+	"index.html": {
+		"refer": [
+			"jingdian.html",
+			"jiudian.html",
+			"food.html",
+			"logOn.html",
+			"zhuce.html",
+			"find.html",
+			"route.html",
+			"destination.html",
+			"travel.html",
+			"homePage.html"
+		],
+		"resources": [
+			"css/index.css",
+			"images/index_82.png",
+			"images/logo.png",
+			"css/common.css",
+			"destination.html",
+			"css/swiper.min.css",
+			"images/inde_06.png",
+			"images/index_75.png",
+			"images/index_80.png",
+			"images/index_78.png",
+			"images/inde_03.png"
+		]
+	},
+	"jiudian.html": {
+		"refer": [
+			"jiudian_search.html",
+			"index.html",
+			"jiudan_list.html",
+			"jiudian_list.html"
+		]
+	},
+	"jiudian_search.html": {
+		"refer": [
+			"jiudian.html"
+		]
+	},
+	"jiudan_list.html": {
+		"refer": [
+			"jiudian.html"
+		]
+	},
+	"jingdian_list.html": {
+		"refer": [
+			"jingdian.html"
+		]
+	},
+	"jiudian_list.html": {
+		"refer": [
+			"jiudian.html"
+		]
+	},
+	"food.html": {
+		"refer": [
+			"food_list.html",
+			"index.html"
+		]
+	},
+	"food_list.html": {
+		"refer": [
+			"food.html"
+		]
+	},
+	"logOn.html": {
+		"refer": [
+			"index.html",
+			"homePage.html"
+		]
+	},
+	"zhuce.html": {
+		"refer": [
+			"index.html"
+		]
+	},
+	"find.html": {
+		"refer": [
+			"index.html"
+		]
+	},
+	"route.html": {
+		"refer": [
+			"add_route.html"
+		]
+	},
+	"travel.html": {
+		"refer": [
+			"index.html",
+			"travel_list.html"
+		]
+	},
+	"travel_list.html": {
+		"refer": [
+			"travel.html",
+			"myTravel.html"
+		]
+	},
+	"destination.html": {
+		"refer": [
+			"index.html"
+		]
+	},
+	"homePage.html": {
+		"refer": [
+			"logOn.html",
+			"index.html",
+			"homeContent.html"
+		]
+	},
+	"homeContent.html": {
+		"refer": [
+			"homePage.html",
+			"setUp.html",
+			"myJudge.html",
+			"profile.html",
+			"myTravel.html",
+			"myLove.html"
+		]
+	},
+	"setUp.html": {
+		"refer": [
+			"homeContent.html",
+			"profile.html"
+		]
+	},
+	"profile.html": {
+		"refer": [
+			"setUp.html",
+			"homeContent.html",
+			"myJudge.html"
+		]
+	},
+	"myJudge.html": {
+		"refer": [
+			"profile.html",
+			"homeContent.html"
+		]
+	},
+	"myTravel.html": {
+		"refer": [
+			"travel_list.html",
+			"homeContent.html"
+		]
+	}
+}

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+    <title>酒店</title>
+    <link rel="icon" href="images/tai.ico" type="image/x-icon" />
+</head>
+<link rel="stylesheet" type="text/css" href="css/common.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<!--<link rel="stylesheet" type="text/css" href="css/swiper.min.css" />-->
+<script src="js/jquery-2.1.1.min.js"></script>
+<!--<script src="js/swiper.min.js"></script>-->
+<script src="js/style.js"></script>
+	<body>
+		<div id="wrapper">
+			<div class="jingdian_top">
+	            <img src="images/jingdian_0.jpg" class="jingdian_logotop" onclick="backs();">
+	            <div id="jiu">景点详情</div>
+	            <img src="images/love.png" id="love">
+	        </div><!--/jingdian_top-->
+	        <div id="banner">
+	        	<img src="images/jing_02.png" width="100%">
+	        </div><!--/banner-->
+        	<div class="jiu_com">
+        		<h1>泰山风景区</h1>
+	        	<ul id="jing_list">
+	        		<li><img src="images/jing_06.png"><a class="span5">4.7分</a><a>10867条点评 </a></li>
+	        		<li><img src="images/jing_09.png"><span>泰安市泰山区 </span></li>
+	        		<li><img src="images/jing_12.png"><span>开放时间：00:00-24:00；取票时间：00:00-24:00（红门），5:00-20:00（天外村）</span></li>
+	        		<li><img src="images/jing_14.png"><span>泰山自古以来便是我国著名的山峰之一，有五岳之首的美誉。泰山风景以壮丽著称</span></li>
+	        	</ul>
+        	</div>
+        	<div class="index_kong"></div>
+        	<div class="jiu_com">
+        		<h1>推荐</h1>
+	        	<dl class="dl_list">
+	        		<dt>
+	        			<p class="h1">泰山风景区（红门入口）成人票（红门-即时生效）</p>
+	        			<p class="sui"><span>随买随用</span><span>随时退</span><span>无需取票</span></p>
+	        			<p class="xu"><span>已售25497份</span><span>购买须知</span></p>
+	        		</dt>
+	        		<dd>
+	        			<span class="span6">￥125起</span>
+	        			<s>￥125</s>
+	        			<span class="span7">立即预定</span>
+	        		</dd>
+	        	</dl>
+	        	<dl class="dl_list">
+	        		<dt>
+	        			<p class="h1">泰山风景区（天外村入口）成人票（天外村含车-即时生效）</p>
+	        			<p class="sui"><span>随买随用</span><span>随时退</span><span>无需取票</span></p>
+	        			<p class="xu"><span>已售25497份</span><span>购买须知</span></p>
+	        		</dt>
+	        		<dd>
+	        			<span class="span6">￥155起</span>
+	        			<s>￥155</s>
+	        			<span class="span7">立即预定</span>
+	        		</dd>
+	        	</dl><!--/dl_list-->
+	        	<dl class="dl_list">
+	        		<dt>
+	        			<p class="h1">泰山风景区（红门入口）优待票（儿童/学生票）	</p>
+	        			<p class="sui"><span>随买随用</span><span>随时退</span><span>无需取票</span></p>
+	        			<p class="xu"><span>已售25497份</span><span>购买须知</span></p>
+	        		</dt>
+	        		<dd>
+	        			<span class="span6">￥60起</span>
+	        			<s>￥60</s>
+	        			<span class="span7">立即预定</span>
+	        		</dd>
+	        	</dl><!--/dl_list-->
+        	</div><!--/jiu_common-->
+	        <div class="index_kong"></div>
+	        <div class="jiu_com">
+        		<h1>红门入口门票</h1>
+	        	<dl class="dl_list">
+	        		<dt>成人票</dt>
+	        		<dd><span class="span6">￥125起</span></dd>
+	        	</dl>
+	        	<dl class="dl_list">
+	        		<dt>儿童/学生</dt>
+	        		<dd><span class="span6">￥60起</span></dd>
+	        	</dl>
+	        	<dl class="dl_list">
+	        		<dt>老人票</dt>
+	        		<dd><span class="span6">￥60起</span></dd>
+	        	</dl>
+	        	<dl class="dl_list">
+	        		<dt>亲子票（1大1小）</dt>
+	        		<dd><span class="span6">￥185起</span></dd>
+	        	</dl>
+        	</div><!--/jiu_common-->
+	        <div class="index_kong"></div>
+	         <div class="jiu_com">
+        		<h1>天外村入口门票</h1>
+	        	<dl class="dl_list">
+	        		<dt>成人票</dt>
+	        		<dd><span class="span6">￥150起</span></dd>
+	        	</dl>
+	        	<dl class="dl_list">
+	        		<dt>儿童/学生</dt>
+	        		<dd><span class="span6">￥90起</span></dd>
+	        	</dl>
+	        	<dl class="dl_list">
+	        		<dt>老人票</dt>
+	        		<dd><span class="span6">￥90起</span></dd>
+	        	</dl>
+        	</div><!--/jiu_common-->
+	        <div class="index_kong"></div>
+	         <div class="jiu_com">
+        		<h1>大门票+封禅大典</h1>
+	        	<dl class="dl_list">
+	        		<dt>成人票（B区）</dt>
+	        		<dd><span class="span6">￥238起</span></dd>
+	        	</dl>
+	        	<dl class="dl_list">
+	        		<dt>成人票（A区）</dt>
+	        		<dd><span class="span6">￥318起</span></dd>
+	        	</dl>
+	        	<dl class="dl_list">
+	        		<dt>老人/学生票（B区）</dt>
+	        		<dd><span class="span6">￥183起</span></dd>
+	        	</dl>
+	        	<dl class="dl_list">
+	        		<dt>老人/学生票（B区）</dt>
+	        		<dd><span class="span6">￥243起</span></dd>
+	        	</dl>
+        	</div><!--/jiu_common-->
+	        <div class="index_kong"></div>
+	        <div id="opinion">
+	        	<h1>游友评价<a href="#">查看全部>></a></h1>
+	        	<div class="opins">
+	        		<div class="root">
+		        		<img src="images/jing_17.png">
+		        		<p>费诺富达奥博彦</p>
+		        	</div><!--/root-->
+		        	<div class="opin">
+		        		<p>泰山不愧为五岳之首我是学生，上午9:00 凭学生票60从红门_上山一路走走停停在风景好的地方拍张照片就算是歇脚了11:00左右.上的中天门]。真正的挑战才刚刚开始快活三里算是一个缓冲休息带，过了云步桥，后面的道路就艰难了。从云...</p>
+		        		<p>
+		        			<img src="images/jing_21.png">
+		        			<img src="images/jing_23.png">
+		        			<img src="images/jing_25.png">
+		        			<img src="images/jing_27.png">
+		        		</p>
+		        	</div>
+	        	</div><!--/opins-->
+	        	<div class="opins">
+	        		<div class="root">
+		        		<img src="images/jing_17.png">
+		        		<p>费诺富达奥博彦</p>
+		        	</div><!--/root-->
+		        	<div class="opin">
+		        		<p>泰山不愧为五岳之首我是学生，上午9:00 凭学生票60从红门_上山一路走走停停在风景好的地方拍张照片就算是歇脚了11:00左右.上的中天门]。真正的挑战才刚刚开始快活三里算是一个缓冲休息带，过了云步桥，后面的道路就艰难了。从云...</p>
+		        		<p>
+		        			<img src="images/jing_21.png">
+		        			<img src="images/jing_23.png">
+		        			<img src="images/jing_25.png">
+		        			<img src="images/jing_27.png">
+		        		</p>
+		        	</div>
+	        	</div><!--/opins-->
+	        	<a href="#" class="more">查看全部点评>></a>
+	        </div><!--/opinion-->
+	        <div class="index_kong"></div>
+	        <div id="jia">
+	        	<div>
+	        		<dl><a href="#">
+		        		<dt><img src="images/jing_40.png"></dt>
+		        		<dd>写点评</dd>
+		        	</a></dl>
+	        	</div>
+	        	<div>
+	        		<dl><a href="#">
+		        		<dt><img src="images/jing_42.png"></dt>
+		        		<dd>加入行程</dd>
+		        	</a></dl>
+	        	</div>
+	        </div><!--/jia-->
+		</div><!--/wrapper-->
+	</body>
+</html>
